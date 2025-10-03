@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: RasmusAndersson.Inter
+PackageVersion: 4.1
+Installers:
+  - Architecture: neutral
+    InstallerType: zip
+    InstallerUrl: https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip
+    InstallerSha256: 9883fdd4a49d4fb66bd8177ba6625ef9a64aa45899767dde3d36aa425756b11e
+    NestedInstallerType: font
+    NestedInstallerFiles:
+      - RelativeFilePath: Inter.ttc
+      - RelativeFilePath: InterVariable.ttf
+      - RelativeFilePath: InterVariable-Italic.ttf
+ManifestType: installer
+ManifestVersion: 1.12.0
