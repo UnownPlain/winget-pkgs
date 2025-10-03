@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: tonsky.FiraCode
+PackageVersion: 6.2
+Installers:
+  - Architecture: neutral
+    InstallerType: zip
+    InstallerUrl: https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip
+    InstallerSha256: 0949915ba8eb24d89fd93d10a7ff623f42830d7c5ffc3ecbf960e4ecad3e3e79
+    NestedInstallerType: font
+    NestedInstallerFiles:
+      - RelativeFilePath: FiraCode-Bold.ttf
+      - RelativeFilePath: FiraCode-Light.ttf
+      - RelativeFilePath: FiraCode-Medium.ttf
+      - RelativeFilePath: FiraCode-Regular.ttf
+      - RelativeFilePath: FiraCode-Retina.ttf
+      - RelativeFilePath: FiraCode-SemiBold.ttf
+ManifestType: installer
+ManifestVersion: 1.12.0
