@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: JetBrains.Mono
+PackageVersion: 2.304
+Installers:
+  - Architecture: neutral
+    InstallerType: zip
+    InstallerUrl: https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip
+    InstallerSha256: 6f6376c6ed2960ea8a963cd7387ec9d76e3f629125bc33d1fdcd7eb7012f7bbf
+    NestedInstallerType: font
+    NestedInstallerFiles:
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-Bold.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-BoldItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-ExtraBold.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-ExtraBoldItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-ExtraLight.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-ExtraLightItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-Italic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-Light.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-LightItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-Medium.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-MediumItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-Regular.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-SemiBold.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-SemiBoldItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-Thin.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMono-ThinItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-Bold.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-BoldItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-ExtraBold.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-ExtraLight.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-ExtraLightItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-Light.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-LightItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-Medium.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-MediumItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-Regular.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-SemiBold.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-SemiBoldItalic.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-Thin.ttf
+      - RelativeFilePath: fonts/ttf/JetBrainsMonoNL-ThinItalic.ttf
+ManifestType: installer
+ManifestVersion: 1.12.0
