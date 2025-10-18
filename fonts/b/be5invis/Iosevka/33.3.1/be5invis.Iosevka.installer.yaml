@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: be5invis.Iosevka
+PackageVersion: 33.3.1
+Installers:
+  - Architecture: neutral
+    InstallerType: zip
+    InstallerUrl: https://github.com/be5invis/Iosevka/releases/download/v33.3.1/SuperTTC-Iosevka-33.3.1.zip
+    InstallerSha256: ec5c5c29b7cbd8ca87942d541396d89e665850bef3e355799901390f1be8a495
+    NestedInstallerType: font
+    NestedInstallerFiles:
+      - RelativeFilePath: Iosevka.ttc
+ManifestType: installer
+ManifestVersion: 1.12.0
