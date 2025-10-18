@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Canonical.Ubuntu
+PackageVersion: 0.83
+Installers:
+  - Architecture: neutral
+    InstallerType: zip
+    InstallerUrl: https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip
+    InstallerSha256: 61a2b342526fd552f19fef438bb9211a8212de19ad96e32a1209c039f1d68ecf
+    NestedInstallerType: font
+    NestedInstallerFiles:
+      - RelativeFilePath: ubuntu-font-family-0.83/Ubuntu-B.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/Ubuntu-BI.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/Ubuntu-C.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/Ubuntu-L.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/Ubuntu-LI.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/Ubuntu-M.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/Ubuntu-MI.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/Ubuntu-R.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/Ubuntu-RI.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/Ubuntu-Th.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/UbuntuMono-B.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/UbuntuMono-BI.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/UbuntuMono-R.ttf
+      - RelativeFilePath: ubuntu-font-family-0.83/UbuntuMono-RI.ttf
+ManifestType: installer
+ManifestVersion: 1.12.0
