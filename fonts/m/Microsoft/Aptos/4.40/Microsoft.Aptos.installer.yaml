@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Microsoft.Aptos
+PackageVersion: 4.40
+Installers:
+  - Architecture: neutral
+    InstallerType: zip
+    InstallerUrl: https://download.microsoft.com/download/8/6/0/860a94fa-7feb-44ef-ac79-c072d9113d69/Microsoft%20Aptos%20Fonts.zip
+    InstallerSha256: 6528fd120e719a9f985e94214eca6887d1653b88456916a792a630b02e95b025
+    NestedInstallerType: font
+    NestedInstallerFiles:
+      - RelativeFilePath: Aptos.ttf
+      - RelativeFilePath: Aptos-Black.ttf
+      - RelativeFilePath: Aptos-Black-Italic.ttf
+      - RelativeFilePath: Aptos-Bold.ttf
+      - RelativeFilePath: Aptos-Bold-Italic.ttf
+      - RelativeFilePath: Aptos-Display.ttf
+      - RelativeFilePath: Aptos-Display-Bold.ttf
+      - RelativeFilePath: Aptos-Display-Bold-Italic.ttf
+      - RelativeFilePath: Aptos-Display-Italic.ttf
+      - RelativeFilePath: Aptos-ExtraBold.ttf
+      - RelativeFilePath: Aptos-ExtraBold-Italic.ttf
+      - RelativeFilePath: Aptos-Italic.ttf
+      - RelativeFilePath: Aptos-Light.ttf
+      - RelativeFilePath: Aptos-Light-Italic.ttf
+      - RelativeFilePath: Aptos-Mono.ttf
+      - RelativeFilePath: Aptos-Mono-Bold.ttf
+      - RelativeFilePath: Aptos-Mono-Bold-Italic.ttf
+      - RelativeFilePath: Aptos-Mono-Italic.ttf
+      - RelativeFilePath: Aptos-Narrow.ttf
+      - RelativeFilePath: Aptos-Narrow-Bold.ttf
+      - RelativeFilePath: Aptos-Narrow-Bold-Italic.ttf
+      - RelativeFilePath: Aptos-Narrow-Italic.ttf
+      - RelativeFilePath: Aptos-SemiBold.ttf
+      - RelativeFilePath: Aptos-SemiBold-Italic.ttf
+      - RelativeFilePath: Aptos-Serif.ttf
+      - RelativeFilePath: Aptos-Serif-Bold.ttf
+      - RelativeFilePath: Aptos-Serif-Bold-Italic.ttf
+      - RelativeFilePath: Aptos-Serif-Italic.ttf
+ManifestType: installer
+ManifestVersion: 1.12.0
