@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Lato.Lato
+PackageVersion: 2.015
+Installers:
+  - Architecture: neutral
+    InstallerType: zip
+    InstallerUrl: https://www.latofonts.com/files/Lato2OFL.zip
+    InstallerSha256: 42b54e96c07e299d967fc3227c7bd63a20d6cfb1dc8fd6dae83628091e20a5b8
+    NestedInstallerType: font
+    NestedInstallerFiles:
+      - RelativeFilePath: Lato2OFL/Lato-Black.ttf
+      - RelativeFilePath: Lato2OFL/Lato-BlackItalic.ttf
+      - RelativeFilePath: Lato2OFL/Lato-Bold.ttf
+      - RelativeFilePath: Lato2OFL/Lato-BoldItalic.ttf
+      - RelativeFilePath: Lato2OFL/Lato-Hairline.ttf
+      - RelativeFilePath: Lato2OFL/Lato-HairlineItalic.ttf
+      - RelativeFilePath: Lato2OFL/Lato-Heavy.ttf
+      - RelativeFilePath: Lato2OFL/Lato-HeavyItalic.ttf
+      - RelativeFilePath: Lato2OFL/Lato-Italic.ttf
+      - RelativeFilePath: Lato2OFL/Lato-Light.ttf
+      - RelativeFilePath: Lato2OFL/Lato-LightItalic.ttf
+      - RelativeFilePath: Lato2OFL/Lato-Medium.ttf
+      - RelativeFilePath: Lato2OFL/Lato-MediumItalic.ttf
+      - RelativeFilePath: Lato2OFL/Lato-Regular.ttf
+      - RelativeFilePath: Lato2OFL/Lato-Semibold.ttf
+      - RelativeFilePath: Lato2OFL/Lato-SemiboldItalic.ttf
+      - RelativeFilePath: Lato2OFL/Lato-Thin.ttf
+      - RelativeFilePath: Lato2OFL/Lato-ThinItalic.ttf
+ManifestType: installer
+ManifestVersion: 1.12.0
