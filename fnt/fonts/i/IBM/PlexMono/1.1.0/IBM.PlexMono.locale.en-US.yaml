@@ -1,0 +1,19 @@
+# Created with komac v2.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: IBM.PlexMono
+PackageVersion: 1.1.0
+PackageLocale: en-US
+Publisher: IBM Corporation
+PublisherUrl: https://www.ibm.com/
+PublisherSupportUrl: https://github.com/IBM/plex/issues
+Author: IBM Corporation
+PackageName: IBM Plex Mono
+PackageUrl: https://www.ibm.com/plex/
+License: OFL-1.1
+LicenseUrl: https://github.com/IBM/plex/blob/HEAD/LICENSE.txt
+CopyrightUrl: https://github.com/IBM/plex/blob/HEAD/LICENSE.txt
+ShortDescription: IBM's monospaced typeface, a versatile monospace font designed for code and terminal environments.
+Description: IBM Plex Mono is IBM's monospaced typeface from the Plex font family, carefully designed to meet the needs of a global technology company. This open-source font is optimized for code editors, terminals, and developer environments. Available in multiple weights with both Roman and true italic variants, IBM Plex Mono supports extended Latin, Arabic, Chinese (Traditional), Cyrillic, Devanagari, Greek, Hebrew, Japanese, Korean, and Thai. It provides a monospaced alternative to the IBM Plex Sans family while maintaining the same design philosophy and versatility. The font is ideal for programming, terminal usage, and other monospace typography needs.
+Moniker: ibm-plex-mono
+ManifestVersion: 1.12.0

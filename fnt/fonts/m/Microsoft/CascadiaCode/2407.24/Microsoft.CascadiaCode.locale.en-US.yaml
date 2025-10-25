@@ -1,0 +1,21 @@
+# Created with komac v2.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: Microsoft.CascadiaCode
+PackageVersion: '2407.24'
+PackageLocale: en-US
+Publisher: Microsoft Corporation
+PublisherUrl: https://www.microsoft.com/
+PublisherSupportUrl: https://github.com/microsoft/cascadia-code/issues
+Author: Microsoft Corporation
+PackageName: Cascadia Code
+PackageUrl: https://github.com/microsoft/cascadia-code
+License: OFL-1.1
+LicenseUrl: https://github.com/microsoft/cascadia-code/blob/HEAD/LICENSE
+Copyright: Copyright (c) 2019 - Present, Microsoft Corporation
+CopyrightUrl: https://github.com/microsoft/cascadia-code/blob/HEAD/LICENSE
+ShortDescription: A fun, modern monospaced font from Microsoft with coding ligatures, designed to enhance the Windows Terminal and Visual Studio.
+Description: Cascadia Code is a fun and modern monospaced font that comes bundled with Windows Terminal and is the default font in Visual Studio. It features coding ligatures, arrow support, and stylistic sets for enhanced readability in code editors. The font is available in multiple variants including Cascadia Code (with ligatures), Cascadia Mono (without ligatures), Cascadia PL (with Powerline symbols), and Cascadia NF (with Nerd Font symbols). It includes italic and cursive variants, and supports a comprehensive character set for programming and development.
+Moniker: cascadia-code
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
