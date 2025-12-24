@@ -1,0 +1,18 @@
+# Created with komac v2.14.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Microsoft.FluentFonts
+PackageVersion: '99.1'
+InstallerType: zip
+NestedInstallerType: font
+NestedInstallerFiles:
+- RelativeFilePath: 0xProtoNerdFont-Bold.ttf
+- RelativeFilePath: 0xProtoNerdFont-Italic.ttf
+- RelativeFilePath: 0xProtoNerdFontPropo-Italic.ttf
+ReleaseDate: 2025-04-24
+Installers:
+- Architecture: neutral
+  InstallerUrl: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/0xProto.zip
+  InstallerSha256: E50E7FEC9EFBE1EB986B65F01E210098E122A3F495DB24E6624BDCBCA52DA11D
+ManifestType: installer
+ManifestVersion: 1.12.0
