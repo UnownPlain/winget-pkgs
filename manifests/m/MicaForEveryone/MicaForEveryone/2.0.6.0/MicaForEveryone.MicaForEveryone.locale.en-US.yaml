@@ -4,7 +4,7 @@
 PackageIdentifier: MicaForEveryone.MicaForEveryone
 PackageVersion: 2.0.6.0
 PackageLocale: en-US
-Publisher: Mica For Everyone
+Publisher: Dongle Insovaki
 PublisherUrl: https://github.com/MicaForEveryone
 PublisherSupportUrl: https://github.com/MicaForEveryone/MicaForEveryone/issues
 PackageName: Mica For Everyone
@@ -12,8 +12,8 @@ PackageUrl: https://github.com/MicaForEveryone/MicaForEveryone
 License: MIT
 LicenseUrl: https://github.com/MicaForEveryone/MicaForEveryone/blob/HEAD/LICENSE
 Copyright: Copyright (c) Mica For Everyone
-CopyrightUrl: https://github.com/MicaForEveryone/MicaForEveryone/blob/reset-winui3/LICENSE
-ShortDescription: A tool to enable backdrop effect on titlebars of Win32 apps on Windows 11
+CopyrightUrl: https://github.com/MicaForEveryone/MicaForEveryone/blob/HEAD/LICENSE
+ShortDescription: A tool to enable backdrop effect on titlebars of Win32 apps on Windows 11.
 Description: Mica For Everyone is a tool to customize system backdrop on Win32 apps using DwmSetWindowAttribute and other methods. It can apply Mica (or any other backdrop materials) on the non-client area (window frame) or background of supported apps and its behavior is customizable through a GUI and a config file.
 Moniker: mfe
 Tags:
@@ -25,7 +25,7 @@ Tags:
 - tool
 - win32
 - windows
-- windows11
+- windows-11
 - xaml-islands
 ReleaseNotes: |-
   New features
