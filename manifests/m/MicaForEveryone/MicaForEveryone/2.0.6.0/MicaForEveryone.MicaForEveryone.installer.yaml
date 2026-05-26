@@ -14,13 +14,11 @@ InstallModes:
 UpgradeBehavior: install
 Dependencies:
   PackageDependencies:
-  - PackageIdentifier: Microsoft.WindowsAppRuntime.1.7
+  - PackageIdentifier: Microsoft.WindowsAppRuntime.2.0
 PackageFamilyName: MicaForEveryone.MicaForEveryone2_eydvrrwaqjtyw
 RestrictedCapabilities:
 - runFullTrust
 ReleaseDate: 2026-05-26
-AppsAndFeaturesEntries:
-- Publisher: Dongle Insovaki
 Installers:
 - Architecture: x86
   InstallerUrl: https://github.com/MicaForEveryone/MicaForEveryone/releases/download/2.0.6.0/bundle.msixbundle
