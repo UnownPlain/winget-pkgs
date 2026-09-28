@@ -3,12 +3,7 @@
 
 PackageIdentifier: Timthreetwelve.GetMyIP
 PackageVersion: 0.23.2
-Platform:
-- Windows.Desktop
 MinimumOSVersion: 10.0.14393.0
-Dependencies:
-  PackageDependencies:
-  - PackageIdentifier: Microsoft.DotNet.Runtime.10
 ReleaseDate: 2026-08-26
 Installers:
 - Architecture: x86
@@ -18,8 +13,7 @@ Installers:
   InstallerSha256: 5AF970019709CED85F9AD427B73E3B61EF685591737066A62FF7596B38A332AB
   ProductCode: '{EBEA37CE-1C9C-44C2-ACE3-102E6BF79364}_is1'
   AppsAndFeaturesEntries:
-  - Publisher: Tim Kennedy
-    ProductCode: '{EBEA37CE-1C9C-44C2-ACE3-102E6BF79364}_is1'
+  - ProductCode: '{EBEA37CE-1C9C-44C2-ACE3-102E6BF79364}_is1'
   InstallationMetadata:
     DefaultInstallLocation: '%LocalAppData%\Programs\T_K\Get My IP'
 - Architecture: x86
@@ -37,13 +31,16 @@ Installers:
   InstallerSha256: 5F3433AE530ED0E0A0BC89B5B09CAC57EEC139D3BEFAAA31116358FCFE1C46D4
   ProductCode: '{EBEA37CE-1C9C-44C2-ACE3-102E6BF79364}_is1'
   AppsAndFeaturesEntries:
-  - Publisher: Tim Kennedy
-    ProductCode: '{EBEA37CE-1C9C-44C2-ACE3-102E6BF79364}_is1'
+  - ProductCode: '{EBEA37CE-1C9C-44C2-ACE3-102E6BF79364}_is1'
   InstallationMetadata:
     DefaultInstallLocation: '%LocalAppData%\Programs\T_K\Get My IP'
 - Architecture: x64
   InstallerType: zip
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: Get My IP\GetMyIP.exe
   InstallerUrl: https://github.com/Timthreetwelve/GetMyIP/releases/download/v0.23.2/GetMyIP_0.23.2_SC_x64_Portable.zip
   InstallerSha256: F356F5FE364ECA976102446359423A3A6A20F27199C659C23A4994DB9D9F904C
+  ArchiveBinariesDependOnPath: true
 ManifestType: installer
 ManifestVersion: 1.12.0
