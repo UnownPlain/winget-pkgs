@@ -21,6 +21,9 @@ Installers:
   InstallerUrl: https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-win64-v5.0.1.zip
   InstallerSha256: B12A2C4EE8BE317422451FC7DCF8EE20A71B5EA7EF9AD73DDD825A25316227A5
 - Architecture: arm64
+  NestedInstallerFiles:
+  - RelativeFilePath: scrcpy-winarm64-v5.0.1/scrcpy.exe
+    PortableCommandAlias: scrcpy
   InstallerUrl: https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-winarm64-v5.0.1.zip
   InstallerSha256: 16C3FC2068DF64946F670E3504B4752073EBAE47A416A45B46E79A5AB19C689B
 ManifestType: installer
